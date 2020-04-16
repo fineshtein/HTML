@@ -1,0 +1,167 @@
+.banner {
+	background-color: #2B2835; }
+
+.wrapper {
+	display: flex;
+	align-items: center;
+	justify-content: flex-end;
+	position: relative;
+	max-width: 1240px;
+	margin: 0 auto; }
+
+.banner-picture {
+	position: absolute;
+	top: 0;
+	left: -110px; }
+
+.info {
+	max-width: 508px;
+	width: 100%; 
+	padding: 210px 0 180px; }
+
+.info_2 {
+	max-width: 508px;
+	width: 100%; 
+	padding: 237px 0 150px; }
+
+.subTitle, .title, .price {
+	color: #fff; } 
+
+.black_letters {
+	color: #2B2835; }
+
+.pad {
+	padding: 20px 0 11px 0; }
+
+.find {
+	position: relative;
+	left: 5px; }
+
+.bold {
+	font-weight: bold;
+	font-size: 50px; }
+
+.pill {
+	max-width: 508px;
+	width: 100%; }
+
+ ._beats {
+	width: auto;
+	max-width: 240px;
+	float: left; }
+
+.plus { 
+	position: relative;
+    top: -15px;  }
+
+.subTitle {
+	font-size: 16px; }
+
+.title, .price {
+	font-size: 40px; }
+
+.float {
+	float: left; }
+
+.nofloat {
+	float: none; }
+
+.button {
+	border: none;
+	outline: none;
+	border-radius: 20px;
+	font-size: 14px;
+	color: #000;
+	background-color: #FFC700;
+	padding: 12px 48px;
+	cursor: pointer;
+	position: relative;
+	left: 34px;
+	top: 3px; }
+
+.black_button {
+	border: none;
+	outline: none;
+	border-radius: 20px;
+	font-size: 14px;
+	color: #FFFFFF;
+	background-color: #000000;
+	padding: 12px 48px;
+	cursor: pointer;
+	position: relative;
+	left: 34px;
+	top: 3px; }
+
+.extra-text {
+	font-size: 13px;
+	color: #FFC700;
+	padding: 20px;
+	position: relative;
+	right: 20px;
+	text-align: left; }
+
+.transparent_black {
+	color: rgba(0, 0, 0, .52);  }
+
+.image {
+	position: relative;
+	top: 20px;
+	max-width: 755px;
+	width: 100%;
+	height: auto;
+	background-color: transparent; }
+
+
+.button-group {
+	 padding: 15px 0 25px 0; }
+
+.dot {
+	border: 1px solid #EAEAEA;
+	box-sizing: border-box;
+	box-shadow: 0px 2px 1px rgba(0, 0, 0, 0.135817);
+	border-radius: 50%;
+	background-color: #FFFFFF;
+	padding: 14.5px 14.5px;
+	cursor: pointer; }
+
+._dot {
+	margin-right: 26px;	}
+
+.dot:hover {
+	padding: 18px 18px; }
+
+.backpink {
+	background-color: #DD5656; 	}
+
+.backblack {
+	background-color: #000000; 	}
+
+.speakers_img {
+	position: relative; }
+
+.dots {
+	position: absolute;
+	left: 60%;
+	top: 73%;
+	width: 150px;
+	height: 30px;
+	transform: translate3d(-50%, -50%, 0); }
+
+._dots {
+	border: 1px solid #EAEAEA;
+	box-sizing: border-box;
+	box-shadow: 0px 2px 1px rgba(0, 0, 0, 0.135817);
+	border-radius: 50%;
+	background-color: #000000;
+	padding: 5px 5px;
+	cursor: pointer;
+	margin-right: 15px; }
+
+
+
+
+
+
+
+
+
