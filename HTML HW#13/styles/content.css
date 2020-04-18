@@ -1,0 +1,119 @@
+.content {
+	box-sizing: border-box;
+    padding: 20px;
+    height: 100vh;
+    width: auto;
+    color: #4A4A4A;
+    font-size: 14px;    
+ }
+.test {
+	font-size: 16px;
+	margin-bottom: 13px;
+}
+.test14 {
+	font-size: 14px;
+	margin-bottom: 13px;
+}
+.bold {
+	font-weight: bold;
+}
+.flex {
+	display:flex;
+	flex-direction: row;
+	align-items: stretch;		
+}
+.flex-1 {
+	justify-content: space-around;
+	margin-bottom: 15px;
+	min-height: 145px;	
+}
+.just{
+	justify-content: space-around;
+}
+.set_white {
+	border-radius: 5px;
+	background: #FFFFFF;
+}
+.pad15 {
+	box-sizing: border-box;
+    padding: 15px;
+}
+.white-block {
+	min-width: 47%;	
+	box-sizing: border-box;
+    padding: 15px;
+    margin-right: 30px; 
+    flex-grow: 1;         
+}
+.white-block:last-child {
+	margin-right: 0;
+}
+.left_block {
+	min-width: 900px;
+	width: auto;
+}
+.top{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+}
+.teams {
+	width: 195px;
+	min-height: 230px;
+	font-size: 14px;
+	margin-right: 30px;
+}
+.procedure {
+	width: 659px;
+	min-height: 230px;
+}
+.numbers {
+	min-height: 158px;	
+}
+.number {
+	align-content: center;
+	background-color: #DDE8E8;
+	flex-grow: 1;
+	margin-right: 9px;
+	text-align: left;
+	box-sizing: border-box;
+    padding: 85px 0 0 5px;
+}
+.number:last-child {
+	margin-right: 0;
+}
+.hr-dashed {
+	margin: 10px 0;
+	padding: 0;
+	height: 0;
+	border: none;
+	border-top: 2px dashed #ddd;
+	color: #DDE8E8;
+}
+.right_block {
+	min-width: 195px;
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	margin: 15px;
+}
+.bottom {
+	margin-top: 15px;
+	width: 100%;
+	height: auto;
+}
+.little {
+	font-size: 12px;
+	margin-bottom: 3px;
+	margin-left: 25px;
+}
+.input {
+	min-width: 33%;
+	box-sizing: border-box;
+	padding-right: 25px; 
+}
+.inpt {
+	text-indent: -24px;
+	padding-left: 23px;
+}
