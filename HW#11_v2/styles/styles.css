@@ -40,12 +40,8 @@
 	border: 1px solid #E0E0E0;
 	box-sizing: border-box;
 	color: #757575;
-	font-weight: 600;
-	font-size: 14px;
-	line-height: 17px;
 	vertical-align:middle;	 
 }
-
 .searchbutton { 
 	width: 75px;
 	height: 40px; 
@@ -57,13 +53,9 @@
 	border-radius: 2px;
 	vertical-align:middle; 
 }
-
 .whitebutton { 
 	width: 100px;
 	height: 40px; 
-	font-weight: 600;
-	font-size: 14px;
-	line-height: 17px;
 	text-align: center;
 	color: #757575;
 	border: 1px solid #757575;
@@ -71,10 +63,12 @@
 	border-radius: 2px;
 	vertical-align:middle; 
 }
-.bluetext { 
+.text600 {
 	font-weight: 600;
 	font-size: 14px;
 	line-height: 17px;
+}
+.bluetext { 
 	text-transform: uppercase;
 	color: #007AFF; 
 }
@@ -128,7 +122,6 @@
 	height: 75px;
 	background: #FFFFFF;
 	text-align: center;
-	font-family: Lato;
 	font-size: 26px;
 	line-height: 75px;
 	text-align: center;
@@ -141,10 +134,7 @@
 }
 .sellerbblock { 
 	height: 100%;
-	font-family: Lato;
 	font-weight: 500;
-	font-size: 14px;
-	line-height: 17px;
 	text-align: center;
 	color: #878786; 
 	float: left;
@@ -208,8 +198,8 @@
 	border-bottom: 4px #C6C6C5 solid;
 }
 .w345 {
-	float: right;
 	width: 345px;
+	padding-left: 25px;
 }
 .tresinputes { 
 	width: 100%;
@@ -236,7 +226,6 @@
 	float: left;
 	height: 30px;
 	width: 242.5px;
-	font-family: Lato;
 	font-weight: 600;
 	font-size: 24px;
 	line-height: 29px;
