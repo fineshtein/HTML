@@ -21,7 +21,9 @@
 	z-index: 1;
 	background-color: transparent;
 	position: absolute;
-	bottom: 100px; }
+	bottom: 100px;
+	left: 50%;
+	transform: translateX(-50%); } /* центрирование блока с текстом на фоне картинки */
 
 ._center {  
 	display: flex;

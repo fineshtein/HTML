@@ -48,7 +48,8 @@
  ._beats {
 	width: auto;
 	max-width: 240px;
-	float: left; }
+	float: left;
+ }
 
 .plus { 
 	position: relative;
@@ -125,10 +126,12 @@
 	cursor: pointer; }
 
 ._dot {
-	margin-right: 26px;	}
+	margin-right: 20px;	}
 
 .dot:hover {
-	padding: 18px 18px; }
+	box-shadow: 2px 5px 3px rgba(0, 0, 0, 0.135817);
+	border: 1px solid #898d91;
+}
 
 .backpink {
 	background-color: #DD5656; 	}
