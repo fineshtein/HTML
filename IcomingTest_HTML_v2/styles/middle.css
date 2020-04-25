@@ -1,0 +1,125 @@
+
+.banner {
+	min-height: 450px; }
+.pad {
+	padding-top: 100px;
+	padding-left: 130px; }
+.banner_header {
+	font-size: 60px;	}
+.btext {
+	color: #000000; }
+.ipsum {
+	font-size: 36px;
+	padding-bottom: 29px; }
+.button {
+	border: none;
+	width: 283px;
+	height: 60px;
+	background-color: #ffff;
+	font-size: 26px;
+	margin-right: 25px; }
+.button:hover {
+	box-shadow: 0 0 15px rgba(0,0,0,0.5); 
+	cursor: pointer; }
+.black {
+	background: #000000;
+	color: #ffff; }
+.articles {
+	padding: 80px 110px;
+	display: flex;
+	justify-content: space-between;
+	position: none; }
+.article {
+	margin-right: 40px; }
+.article:last-child {
+	margin-right: 0; }
+.a_rectangle {
+	width: auto;
+	min-height:244px; }
+.a_header {
+	padding-top: 30px;
+	font-size: 30px;	 }
+.a_text {
+	padding-top: 10px;
+	font-size: 18px;
+	text-align: right; }
+.read_more {
+	padding-top: 40px;	}
+.read_more a:hover {
+	cursor: pointer;
+	color: #242526; }
+.read_more a:hover::after {
+	content: " ... "; }
+.m_section {
+	padding-top: 100px;
+	padding-bottom: 129px; }
+.sign {
+	font-size: 35px;
+	padding-bottom: 30px;
+	letter-spacing: 4px;
+	text-align: center; }
+.inpt {
+	display: flex;
+	margin: 0 auto;
+	text-align: center;
+	justify-content: center;
+	align-items: center; }
+.input {
+	font-size: 26px;
+	text-align: left;
+	color: #787878;
+	width: 412px;
+	height: 60px;
+	border: none;
+	padding-left: 20px; }
+.lbl {
+	display: flex;
+	justify-content: center;
+	align-items: center; }
+.articles_low {
+	padding-top: 80px;
+	padding-bottom: 20px; }
+.article_2 {
+	display: flex;
+	justify-content: center;
+	padding-bottom: 60px; }
+.art {
+	width:588px;
+	min-height: 386px;	}
+.a_rect {
+	width: 588px;
+	min-height: 386px; }
+.pad_r {
+	padding-right: 60px; }
+.pad_l {
+	padding-left: 60px; }
+.a_header_2 {
+	padding-top: 123px;
+	font-size: 30px;
+	text-align: right; }
+.left {
+	text-align: left; }
+.l-but {
+	width: 100%;
+	text-align: center;
+	padding-bottom: 80px; }
+.check {
+	padding: 10px 35px; }
+.hide {
+	position: absolute;
+	justify-content: flex-end;
+   z-index: -1;
+  	opacity: 0; 
+  	display: flex;  }
+.hide + label ~ div{
+    display: none; }
+.hide + label::before {
+  content: 'ᐳ';
+  display: inline-block;  }
+.hide:checked+label::before {
+	content: 'ᐯ'; }
+.hide:checked + label + div  {
+    display: block; 
+    height: auto;  }
+.hide + label:hover::after {
+	content: 'ᐳ ᐳ'; }
