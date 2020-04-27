@@ -125,37 +125,41 @@ h1 {
 
 
 @media (width:320px) {
-	.main h1 {
-		width: 100%;
-		padding-top: 10px;
-		font-weight: bold;
-		font-size: 15px;
-		text-align: center;
+	
+	.main {
+		width: 315px;
+		margin: 0 auto;
+	}
+	h1 {
+		padding-top: 15px;
+		margin: 0;
+		font-size: 12px;
 	}
 	.content {
-		width: 310px;
+		width: 90%;
+		padding-left: 10px;
 	}
-	.content > div  {
-		margin-left: 0;
+	
+	.content label {
+	font-size: 11px;
+	padding: 10px;
+	padding-left: 40px;
+	padding-right: 50px;
 	}
-	.content > div > div > div {
-		width: 281px;
-	}
-	.content > div > div > div > div {
-		padding-left: 0;
-	}
+
+	.content h3 {
+	font-weight: bold;
+	font-size: 11px;}
+
+	.content p {
+	font-size: 10px;
+	line-height: 12px;}
 
 	.content img {
-		width: 100px;
-		height: auto; }
-	.content label {
-		font-size: 12px; }
-	.content h3 {
-		font-size: 11px;}
-	.content p {
-		font-size: 10px;}
-	.label {
-
-	}
+	max-width: 200px;
+	width: 100%;
+	
 }
+
+
 
