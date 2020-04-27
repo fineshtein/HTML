@@ -36,11 +36,15 @@ h1 {
 	color: #5D5D5D;	
 }
 .content img {
-	padding-left: 30px;
+	max-width: 510px;
+	width: 100%;
+		
 }
+
 .content a {
 	color: #51A2FF;
 }
+
 .content > div {
 	width: auto;
 	height: 100%;
@@ -49,28 +53,38 @@ h1 {
 	box-sizing: content-box;
 }
 
-
-
 .content input {
-	display: none;
+	display: none;	
 }
 
+.content span {
+	display: block;
+	width: 8px;
+	height: 8px;
+	border-top: 1px solid #6A6A6A;
+	border-right: 1px solid #6A6A6A;
+	position: absolute;
+	top: 19px;
+	left: 20px;
+	transform: rotate(45deg);
+}
 .h1 {
 	display: none;
 }
 
 .content label {
-	padding-left: 25px;
 	font-size: 13px;
 	color: #000000;
+	padding: 20px;
+	padding-left: 35px;
+	padding-right: 380px;
 }
 
-.content input + label::before {
-	content: '>';
+.content input:checked + label > span {
+	content: ' ';
+	transform: rotate(135deg);
 }
-.content input:checked + label::before {
-	content: 'V';
-}
+
 .content input + label + div  {
     display: none; 
  }
@@ -78,15 +92,16 @@ h1 {
 .content input:checked + label + div  {
     display: block; 
  }
-.content > div > div {
-	min-height: 46px;
-	margin-left: 5px;
-	line-height: 46px;
 
+ .content > div > div {
+	margin-left: 5px;
 	background: #F5F5F5;
 	border: 1px solid #E8E8E8;
 	margin-top:-10px;
-	margin-bottom: -10px;
+	margin-bottom: -10px;	
+	min-height: 46px;
+	line-height: 46px;
+	position: relative;
 }
 .content > div > div > div {
 	height: auto;
@@ -97,13 +112,15 @@ h1 {
 	background: white;
 	line-height: 20px;	
 }
-
-
 .content > div > div > div > div {
 	font-size: 13px;
 	color: #000000;
 	background: white;
 	padding-left: 25px;
+}
+.content > div > div > div > div > div {
+	width: 100%;
+	text-align: center;
 }
 
 
