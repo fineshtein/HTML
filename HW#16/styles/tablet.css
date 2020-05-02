@@ -1,0 +1,77 @@
+@media (min-device-width:321px) and (max-device-width:1022px) {
+
+.content {
+		background: url(../img/motorcycle_enduro_cross-1440x810.png) no-repeat;
+		background-size: cover; 	}
+
+	.hide {
+		display: none;	}
+
+	.nav a {    
+    font-size: 18px;  	}
+
+	.search {
+		width: 65%; 	}
+
+	.search input {
+		padding-left: 22px; 	}
+
+	.main {
+		padding-left: 93px; 	}
+
+	.main h3 {
+	 margin-top: 40px;
+    line-height: 95px;	}
+
+	.t15 {
+		font-size: 18px;	}
+
+	.main article {
+		padding-top: 78px;
+		padding-bottom: 78px; 	}
+
+	.watch:last-child img {
+		padding-left: 25px; 	}
+
+	.t24 {
+		font-size: 24px; 	}
+
+	.sign {
+		padding-top: 30px;
+		padding-bottom: 70px;	}
+
+	form {
+		width: 80%;	}
+
+	.t17 {
+		font-size: 25px;	}
+
+	.sign > div {
+		padding: 0 37px;
+		padding-bottom: 53px;
+		width: 60%; 	}
+
+	.inpt {
+		margin-bottom: 50px;
+		min-height: 50px; 	}
+
+	.inpt:last-of-type {
+		margin-right: 0;	}
+
+	.button {
+		min-height: 50px;	}
+
+	footer {
+		flex-direction: column;
+		padding: 30px; 	}
+
+	.f_left {
+	display:flex;
+	flex-direction: row;	}
+
+	.f_nav {
+		margin-right: 30px;	}
+
+	.f_right {
+		margin-top: 17px; 	}
+}
