@@ -5,9 +5,8 @@
     'Сумма чисел <число-a> и <число-b> равна: <сумма>'
 */
 function houseWork(argA, argB) {
-    const a = argA;
-    const b = argB;    
+    const a = Number(argA);
+    const b = Number(argB);    
     // начало здесь
-    let sum = Number(a) + Number(b);
-    alert('Сумма чисел ' + a + ' и ' + b + ' равна ' + sum);
+    alert(`Сумма чисел ${a} и ${b} равна ${a+b}`);
 } // код не должен выходить за закрывающую скобку
