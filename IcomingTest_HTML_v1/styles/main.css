@@ -2,13 +2,10 @@ html, body {
 	margin:0;
 	padding: 0;
 	border: none;
-	font-family: 'Abel', sans-serif;
-	background: #FFFFFF;
-	color: #1C1E20; }
+	font-family: 'Abel', sans-serif; 	 } 
 .desktop {
 	width: 100%;
 	max-width: 1440px;
-	height: 100vh;
 	font-style: normal;
 	margin: 0 auto; }
 .desktop a {
