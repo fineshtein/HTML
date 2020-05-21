@@ -1,0 +1,26 @@
+@media (min-device-width:701px) {
+.content {
+   width: 700px;
+   height: 95%;
+}
+h1 {
+   font-size: 58px;
+   padding-top: 30px;
+   padding-bottom: 20px;
+}
+.view {
+   height: 60vh;
+   border: 1px solid #EDEDED;
+   border-radius: 38px;
+}
+.chat {
+   padding: 15px;
+}
+.input {
+   border-radius: 32px;
+}
+.input input {
+   width: 470px;
+   margin-left: 33px;
+}
+}

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en, rus">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <script src="./script/script.js" defer></script>
+   <link rel="stylesheet" href="./styles/main.css">
+   <link rel="stylesheet" href="./styles/mobile.css">
+   <link rel="stylesheet" href="./styles/desktop.css">
+   <link href="https://fonts.googleapis.com/css2?family=Halant:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+   <title>Чат-бот</title>
+</head>
+<body>
+   <main>
+      <div class="content">
+         <div class="h"><h1>Чат_бот</h1></div>
+         <div class="view">
+            <div class="chat">
+               <div class="conveier" id="conveier">
+               </div> 
+               <div class="sendString">
+                  <div class="input">                  
+                     <input type="text" id="sendInput" placeholder="Пишем здесь..." oninput="checkInput()"> <button id="sendButton" onclick="buttonClick()"><img src="./img/mobilePath.png" alt="" id="sendImg"></button>
+                  </div>                  
+               </div>
+            </div>
+         </div>
+      </div>
+   </main>
+
+   
+</body>
+</html>

@@ -1,0 +1,44 @@
+@media (max-device-width:700px) {
+
+.content {
+   height: 100%;  
+   flex-direction: column-reverse;
+   overflow: auto;
+   font-size: 17px;
+}
+h1 {
+   font-size: 32px;
+   margin-left: 10px;
+}
+.h {
+   width: 100%;
+   background: #282828;
+   height: auto;
+   position: fixed;
+   top: 0;
+}
+.conveier {
+   padding: 10px;
+   height: 100%;
+   margin-top: 51px;
+   margin-bottom: 70px;
+}
+.input input {
+   width: 75%;
+   margin-left: 10px;
+}
+.sendString {
+   width: 100%;
+   position: fixed;
+   bottom:0;
+}
+.question {
+   max-height: 155px;
+}
+.question p {
+   padding-left: 15px;
+   padding-right: 15px;
+   line-height: 18px;
+}
+
+}
