@@ -3,10 +3,8 @@
    padding: 97px 0;
    align-items: center;
    text-align: center;}
-
 .white {
    background: #ffff;}
-
 .pages_2 {
    width: 996px;
    padding-top: 30px;
@@ -15,21 +13,16 @@
    justify-content: center;
    padding-bottom: 29px;
    border-bottom: 1px solid #ffff;}
-
-.pages_2 a:not(:last-child) {
+.pages_2 li:not(:last-child) {
    margin-right: 40px;}
-
+.pages_2 ul {
+   padding: 0; }
 .icons {
    height: 20px;
    padding-top: 51px;
    display: flex;
    justify-content: center;}
-
-.icon a {
+.icon a:not(:last-child) {
    padding-right: 70px;}
-
-.icon a:last-child {
-   padding-right: 0;}
-
 .icon img:hover {
    box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);}

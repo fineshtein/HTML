@@ -15,9 +15,8 @@
 	width: 154px;
 	height: 31px;
 	display: inline-block; }
-.navigation a:not(:last-child){
+.navigation li:not(:last-child){
     margin-right: 40px; }
-
 .page:hover {
    height:26px;
    border-bottom: 5px solid rgba(8, 129, 123, 0.226);}
