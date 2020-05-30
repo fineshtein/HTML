@@ -1,0 +1,156 @@
+html, body {
+   margin: 0;
+   padding: 0;
+   border: none;
+   outline: none;
+   overflow: hidden;
+}
+.content {
+   width: 100%;
+   height: 100vh;
+   display: flex;
+}
+.content ul {
+   list-style-type: none;
+}
+.puzzle {
+   width: auto;
+   height: 623px;
+   border: 1px solid rgb(211, 191, 191);
+   background: khaki;
+   display: flex;
+}
+.blocks {
+   width: 400px;
+   height: 100%;
+   border-right: 1px solid rgb(211, 191, 191);
+   display: flex;
+   flex-direction: column;
+   justify-content: space-around;
+   align-items: center;
+   flex-shrink: 0;
+   flex-wrap: wrap;
+}
+.block {
+   width: 120px;
+   height: 120px;
+   background: lightcoral;
+   margin-right: 20px;
+   border-radius: 50%;
+}
+.block img {
+      border-radius: 50%;
+}
+.blockArea {
+    width: 763px;
+    height: 623px;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   background: url(../img/background.jpg) no-repeat;
+   background-size: cover;
+}
+.smallArea {
+   width: 80%;
+   height: 80%;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-wrap: wrap;
+}
+.dropZone {
+      width: 120px;
+      height: 120px;
+      margin: 20px;
+      margin-right: 50px;
+      background: rgb(211, 191, 201);
+}
+.round {
+   border-radius: 50%;
+}
+.round img {
+   border-radius: 50%;
+}
+.propeller {
+   width: 200px;
+   height: 623px;
+   justify-content: space-around;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+}
+#propellerImg {
+   width: 80px;
+   height: 80px;
+   margin: 0 auto;
+}
+.waves {
+   display: flex;
+   align-self: end;
+   margin: 0 auto;
+   position:relative;
+}
+#wavesImg {
+   bottom: 0;
+   height: 182px;
+   z-index:1;
+}
+#periscope {
+   right: 55px;
+   width: 64px;
+   height: 64px;
+   position: absolute;
+   z-index:0;
+   bottom: 122px;
+}
+.clearButton {
+   outline: none;
+   border: none;
+   background: rgba(240, 168, 86, 0.356);
+   padding: 10px 25px;
+}
+.clearButton:hover {
+box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+}
+
+@media (max-width: 768px) and (orientation: landscape) {
+html, body {
+   overflow: auto;
+}
+.puzzle {
+   height: 374px;
+}
+.blocks {
+   width: 240px;
+}
+.block {
+   width: 72px;
+   height: 72px;
+}
+.block img {
+   width: 72px;
+   height: 72px;
+}
+.blockArea {
+   width: 458px;
+   height: 374px;
+}
+.dropZone {
+   width: 72px;
+   height: 72px;
+}
+.propeller {
+   width: 120px;
+   height: 374px;
+}
+#propellerImg {
+   width: 50px;
+   height: 50px;
+}
+
+}
+
+
+
+
