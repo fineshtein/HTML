@@ -1,106 +1,135 @@
-@media (max-device-width:320px) {
-	
-	.content {
-		background: url(../img/imgonline.png) no-repeat;
-		background-size: cover; 	}
-
-	.hide {
-		display: none; 	}
-
-	.nav a {    
-    padding: 10px 0;
-    font-size: 15px; 	}
-
- 	.search {
-		width: 55%;
-		padding-left: 10px;	}
-
-	.t15 {
-		font-size: 15px;	}
-
-	.before {
-		margin-right: 15px; 	}
-
-	.search input {
-		padding-left: 10px; 	}
-
-	.t14 {
-		font-size: 14px; 	}
-
-	input[type="search"]::-webkit-input-placeholder {
-	    color: #FFFFFF;
-	    font-size: 14px;    } 
-
- 	input[type="search"]::-moz-placeholder {
-	    color: #FFFFFF;
-	    font-size: 14px; 	}
-
-	.search img {
-		max-width: 10px;
-		max-height: 10px; 	}
-	.main {
-		padding-left: 20px; 	}
-
-	.main h3 {
-		font-size: 25px;
-		margin-top: 20px;
-	   line-height: 30px;
-	   padding-bottom: 20px; 	}
-
-	.t15 {
-		font-size: 15px; 	}
-
-	.main > div {
-		flex-direction: column; 	}
-
-	.watch {
-		margin-bottom: 10px; 	}
-
-	.watch:last-child {
-		margin-bottom: 5px; 	}
-
-	.watch img {
-		max-width: 20px; 	}
-
-	.watch span {
-	padding: 0 10px; 	}
-
-	.main article {
-		flex-direction: column;
-		padding-bottom: 38px; 	}
-
-	.t24 {
-		font-size: 17px; 	}
-
-	.pad {
-		padding-bottom: 0; 	}
-
-	section {
-    margin-top: 4px; 	}
-
-	.sign {
-		padding-top: 30px;
-		padding-bottom: 40px; 	}
-
-	.sign > div {
-		width: 77%;
-		text-align: left;
-		margin-bottom: 10px; 	}
-
-	form {
-		width: 80%; 	}
-
-	.inpt {
-		margin-right: 0;
-		margin-bottom: 20px; 	}
-
-	.button {
-		min-height: 35px;	}
-
-	footer {
-		flex-direction: column;
-		padding: 20px; 	}
-
-	.f_right {
-		margin-top: 18px; 	}
+@media (max-width:669px) {
+.page {
+   background: url(../img/BackgroundSmall.png) no-repeat;
+   background-position: 100%;
+   background-size: cover;
+   background-position: top left;
+   height: 100vh;
+   overflow-x: hidden;
+}
+.hide {
+   display: none;
+}
+.icons {
+   height: 100%;
+   display: flex;
+   flex-direction: row;
+   flex-wrap: wrap;
+   justify-content: center;
+   align-items: center;
+   flex-shrink: 0;
+   padding-left: 25px;
+}
+.headerNav {
+   font-size: 15px;
+}
+.headerNav a:focus {
+   outline: none;
+   padding-bottom: 11px;
+   border-bottom: 4px solid white;
+}
+.icons ul {
+   margin: 0;
+   padding: 0;
+}
+.icons li {
+   width: 5px;
+   height: 5px;
+   background: white;
+   margin: 2px;
+}
+.headerNav ul {
+   padding-right: 25px;
+   padding-left: 25px;
+}
+ .headerInptDiv {
+    width: 60%;
+    padding: 17px;
+ }
+.headerInput {
+   font-family: Titillium Web;
+   font-style: normal;
+   font-weight: normal;
+   font-size: 13px;
+}
+input[type="search"]::-webkit-input-placeholder {
+   font-family: 'Titillium Web', sans-serif;
+   font-size: 13px;
+   color: #FFFFFF;
+}
+.motoName {
+   font-size: 25px;
+   line-height: 30px;
+}
+.videoButton {
+   flex-direction: column;
+   align-items: flex-start;
+   font-size: 15px;
+   padding-bottom: 12px;
+}
+.videoButtonDiv:first-child {
+   margin-bottom: 11px;
+}
+.mobilSize {
+   width: 20px;
+   height: 20px;
+}
+.motoChar {
+   padding-bottom: 40px;
+   flex-direction: column;
+}
+.motoCharUl {
+   margin: 0;
+   margin-bottom: 15px;
+}
+.motoCharUlName {
+   font-size: 15px;
+   padding-bottom: 0;
+}
+.motoCharUlval {
+   font-size: 17px;
+}
+.motoCharUlvalRight {
+   margin-left: 10px;
+}
+.starMobil {
+   width: 15px;
+   height: 15px;
+}
+.footer {
+   flex-direction: column;
+   font-size: 17px;
+}
+.footerNav {
+   flex-direction: column;
+   padding-left: 9%;
+}
+.posRight {
+   margin-top: 0;
+}
+.search {
+   height: auto;
+   font-size: 17px;
+   line-height: 26px;
+   letter-spacing: 0.15px;
+}
+.signPhrase {
+   width: 82%;
+   text-align: left;
+   margin-bottom: 10px;
+   margin-top: 10px;
+}
+.form {
+   width: 82%;
+}
+.searchInpt {
+   min-height: 35px;
+   margin-bottom: 20px;
+   min-width: 60%;
+}
+.button {
+   margin-bottom: 40px;
+   min-height: 35px;
+   min-width: 60%;
+}
 }

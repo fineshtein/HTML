@@ -1,126 +1,130 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-	<title>Landing Page</title>
-	<link rel="stylesheet" type="text/css" href="styles/main.css">
-	<link rel="stylesheet" type="text/css" href="styles/mobile.css">
-	<link rel="stylesheet" type="text/css" href="styles/tablet.css">
-	<link rel="stylesheet" type="text/css" href="styles/desktop.css">
-	<link href="https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap" rel="stylesheet">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<meta charset="utf-8">
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="./styles/mobile.css">
+   <link rel="stylesheet" href="./styles/tablet.css">
+   <link rel="stylesheet" href="./styles/desktop.css">
+   <link rel="stylesheet" href="./styles/main.css">
+   <link href="https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap"
+      rel="stylesheet">
+   <link rel="stylesheet" type="text/css" href="css/styles.css">
+   <title>Landing Page</title>
 </head>
 <body>
+   <div class="page">
+      <div class="content">
 
-	<div class="page">
+         <header class="header">
+            <div class="logo hide"> <img src="./img/domo-kun-logo.png" alt="logo"> </div>
+            <div class="icons desktopHide">
+               <ul class="markerNone desktopHide">
+                  <li class=""><a href="#"></a></li>
+                  <li class=""><a href="#"></a></li>
+                  <li class=""><a href="#"></a></li>
+               </ul>
+               <ul class="markerNone desktopHide">
+                  <li class=""><a href="#"></a></li>
+                  <li class=""><a href=" #"></a></li>
+                  <li class=""><a href="#"></a></li>
+               </ul>
+               <ul class="markerNone desktopHide">
+                  <li class=""><a href="#"></a></li>
+                  <li class=""><a href=" #"></a></li>
+                  <li class=""><a href="#"></a></li>
+               </ul>
+            </div>
+            <nav class="headerNav headerTab">
+               <ul class="markerNone headerNav">
+                  <li class=""><a href="#" tabindex="1">Models</a></li>
+                  <li class="hide"><a href="#" tabindex="2">Dimesions</a></li>
+                  <li class="hide"><a href="#" tabindex="3">Facts & Figures</a></li>
+                  <li class="hide"><a href="#" tabindex="4">History</a></li>
+                  <li class="hide"><a href="#" tabindex="5">Reviews</a></li>
+               </ul>
+               <div class="headerInptDiv">
+                  <img src="./img/Shape.png" alt="search">
+                  <input type="search" class="headerInput" placeholder="Search for details..." tabindex="6">
+               </div>
+            </nav>
 
-		<div class="content">
-			<div class="black">
-				<header class="header">
-						<div class="logo hide"><img src="img/domo-kun-logo.png"/></div>
-						<div class="icons hide_desktop">
-							<div class="line">
-								<div class="icon"></div>
-								<div class="icon"></div>
-								<div class="icon"></div>
-							</div>
-							<div class="line">
-								<div class="icon"></div>
-								<div class="icon"></div>
-								<div class="icon"></div>
-							</div>
-							<div class="line">
-								<div class="icon"></div>
-								<div class="icon"></div>
-								<div class="icon"></div>
-							</div>
-						</div>
-						<div class="before">
-							<nav class="nav t15"><a href="#">Models</a> </nav>
-						</div>
-						<div class="before hide">
-							<nav class="nav t15"><a href="#">Dimesions</a> </nav>
-						</div>
-						<div class="before hide">
-							<nav class="nav t15"><a href="#">Facts & Figures</a> </nav>
-						</div>
-						<div class="before hide">
-							<nav class="nav  t15"><a href="#">History</a> </nav>
-						</div>
-						<div class="before hide">
-							<nav class="nav  t15"><a href="#">Reviews</a> </nav>
-						</div>
-							
-						<div class="search t14">
-							<img src="img/Shape.png">
-							<input type="search" name="search" class="t15 t14" placeholder="Search for details...">
-						</div>			
-				</header>
+         </header>
 
-				<main class="main">
-					<h3>Honda <br> Sport <br> CRF 450RX</h3>
-					<div>
-						<div class="watch">  <img src="img/icon1.svg"><span class="t15"> Watch film </span></div>
-						<div class="watch">  <img src="img/icon2.png"><span class="t15"> Bookmark for later </span></div>
-					</div>
-					<article>
-						<section>
-							<div class="t15 pad"> Manufacturer</div>
-							<div class="t15 t24">Honda</div>
-						</section>
-						<section>
-							<div class="t15 pad"> Production</div>
-							<div class="t15 t24">2019</div>
-						</section>
-						<section>
-							<div class="t15 pad"> Engine</div>
-							<div class="t15 t24">0.45L PGM-FI</div>
-						</section>
-						<section>
-							<div class="t15 pad"> Reviews</div>
-							<div class="t15 flex t24">
-								<div class="star"><img src="img/star.png"></div>
-								<div class="star"><img src="img/star.png"></div>
-								<div class="star"><img src="img/star.png"></div>
-								<div class="star"><img src="img/star.png"></div>
-								<div class="star"><img src="img/star.svg"></div>
-						4.0/5</div>
-						</section>
-					</article>			
-				</main>
-			</div>
-		</div>
 
-		<div class="sign">
-			<div class="t17">
-				Sign up for our email newsletter and get the latest our company news. <br> Get free trial for 3 month.			
-			</div>
-			<form action="/posturl/newsletter/" method="POST" name="form" class="form">
-				<div class="inpt t17r">
-					<img src="img/face_icon.png">
-					<input type="text" name="name" placeholder="Name" required minlength="2" maxlength="30" pattern="[A-Za-z]"}>
-				</div>
-				<div class="inpt t17r">
-					<img src="img/post_icon.png">
-					<input type="email" name="post" placeholder="E-Mail" required >
-				</div>
-				<button class="button t17r" type="submit"> GET STARTED FOR FREE</button>
-			</form>
-		</div>
+         <main class="main">
+            <article class="article">
+                  <h1 class="motoName">Honda <br> Sport <br> CRF 450RX</h1>
+                  <section class="videoButton">
+                     <div class="videoButtonDiv">
+                        <img src="img/icon1.svg" class="mobilSize"><span class="videoButtonSpan"> Watch film </span>
+                     </div>
+                     <div class="videoButtonDiv">
+                        <img src="img/icon2.png" class="mobilSize"><span class="videoButtonSpan"> Bookmark for later
+                        </span>
+                     </div>
+                  </section>
+                  <section class="motoChar">
+                     <ul class="motoCharUl">
+                        <li class="motoCharUlName">Manufacturer</li>
+                        <li class="motoCharUlval">Honda</a></li>
+                     </ul>
+                     <ul class="motoCharUl">
+                        <li class="motoCharUlName">Production</li>
+                        <li class="motoCharUlval">2019</a></li>
+                     </ul>
+                     <ul class="motoCharUl">
+                        <li class="motoCharUlName">Engine</li>
+                        <li class="motoCharUlval">0.45L PGM-FI</li>
+                     </ul>
+                     <ul class="motoCharUl">
+                        <li class="motoCharUlName">Reviews</li>
+                        <li class="motoCharUlval">
+                           <img src="img/star.png" class="starMobil">
+                           <img src="img/star.png" class="starMobil">
+                           <img src="img/star.png" class="starMobil">
+                           <img src="img/star.png" class="starMobil">
+                           <img src="img/star.svg" class="starMobil">
+                           <span class="motoCharUlvalRight"> 4.0/5 </span>
+                        </li>
+                     </ul>
+                  </section>
+               </article>
+         </main>
 
-		<footer>
-			<div class="f_left">
-				<nav class="f_nav t20"> <a href="#"> Cars</a></nav>
-				<nav class="f_nav t20"> <a href="#"> Motorcycles</a></nav>
-				<nav class="f_nav t20"> <a href="#"> Engines</a></nav>
-				<nav class="f_nav t20"> <a href="#"> Water Moto Technology</a></nav>
-			</div>
-			<div class="f_right">
-				<div class="f_nav t20">&copy;,2020 &lt;BeeInterns/&gt; </div>	
-			</div>
-		</footer>
 
-	</div>	
+         <div class="search">
+            <div class="signPhrase">
+               Sign up for our email newsletter and get the latest our company news. <br> Get free trial for 3
+               month.
+            </div>
+            <form action="/posturl/newsletter/" method="POST" name="form" class="form">
+               <div class="searchInpt">
+                     <img src="img/face_icon.png">
+                     <input type="text" name="name" placeholder="Name" required minlength="2" maxlength="30"
+                        pattern="[A-Za-z]" tabindex="8" class="searchInputText">
+               </div>
+               <div class="searchInpt">
+                     <img src="img/post_icon.png">
+                     <input type="email" name="post" placeholder="E-Mail" required tabindex="9" class="searchInputText">
+               </div>
+               <button class="button" type="submit" tabindex="10"> GET STARTED FOR FREE</button>
+            </form>
+         </div>
 
+         <footer class="footer">
+               <ul class="markerNone footerNav">
+                  <li class=""><a href="#" tabindex="11">Cars</a></li>
+                  <li class="""><a href=" #" tabindex="12">Motorcycles</a></li>
+                  <li class=""><a href="#" tabindex="13">Engines</a></li>
+                  <li class=""><a href="#" tabindex="14">Water Moto Technology</a></li>
+               </ul>
+               <ul class="markerNone footerNav posRight">
+                  <li class="">&copy;,2020 &lt;BeeInterns/&gt;</li>
+               </ul>
+         </footer>
+         
+      </div>
+   </div>   
 </body>
 </html>

@@ -1,77 +1,254 @@
-@media (min-device-width:321px) and (max-device-width:1022px) {
+/* здесь пришлось 2 точки breakpoint сделать для tablet, иначе не очень красиво получалось при переходе */
 
-.content {
-		background: url(../img/motorcycle_enduro_cross-1440x810.png) no-repeat;
-		background-size: cover; 	}
+@media (min-width:670px) and (max-width: 900px) {
+.page {
+   background: url(../img/BackgroundTablet.png) no-repeat;
+   background-position: 100%;
+   background-size: cover;
+   background-position: top left;
+   height: 100vh;
+   overflow-x: hidden;
+}
+.hide {
+   display: none;
+}
+.headerTab {
+   width: 80%;
+}
+.headerNav {
+   font-size: 18px;
+}
+.headerNav a:focus {
+   outline: none;
+   padding-bottom: 22px;
+   border-bottom: 4px solid white;
+}
+.headerNav ul {
+   padding-right: 25px;
+   padding-left: 15px;
+}
+.headerNav li {
+   padding-right: 50px;
+}
+.headerInptDiv {
+   width: 80%;
+   padding: 30px;
+}
+.headerInput {
+   font-size: 14px;
+}
+input[type="search"]::-webkit-input-placeholder {
+   font-family: 'Titillium Web', sans-serif;
+   font-size: 14px;
+   color: #FFFFFF;
+}
+.motoName {
+   font-size: 90px;
+   line-height: 100px;
+}
+.icons {
+   width: auto;
+   height: 100%;
+   display: flex;
+   flex-direction: row;
+   flex-grow: 1;
+   flex-wrap: wrap;
+   justify-content: center;
+   align-items: center;
+}
+.icons ul {
+   margin: 0;
+   padding: 0;
+}
+.icons li {
+   width: 10px;
+   height: 10px;
+   background: white;
+   margin: 2px;
+}
+.videoButton {
+   align-items: center;
+   font-size: 18px;
+   padding-bottom: 80px;
+}
+.motoChar {
+   padding-bottom: 80px;
+}
+.motoCharUlName {
+   font-size: 18px;
+   padding-bottom: 10px;
+}
+.motoCharUlval {
+   font-size: 24px;
+}
+.motoCharUlvalRight {
+   margin-left: 35px;
+}
+.signPhrase {
+   font-size: 25px;
+   max-width: 70%;
+   padding-bottom: 30px;
+   padding-top: 20px;
+   line-height: 53px;
+   text-align: center;
+   letter-spacing: 0.3px;
+}
+.form {
+   width: 69%;
+   padding-bottom: 60px;
+}
+  .search {
+     min-height: 400px;
+     max-height: 550px;
+}
+.searchInpt {
+   min-height: 35px;
+}
+.searchInpt:first-child {
+   margin-right: 40px;
+}
+.button {
+   margin-top: 30px;
+   min-height: 35px;
+}
+.footer {
+   flex-direction: column;
+   font-size: 20px;
+}
+.footerNav {
+   width: 70%;
+   justify-content: space-around;
+}
+.posRight {
+   justify-content: flex-start;
+   padding-left: 8%;
+}
+}
 
-	.hide {
-		display: none;	}
 
-	.nav a {    
-    font-size: 18px;  	}
-
-	.search {
-		width: 65%; 	}
-
-	.search input {
-		padding-left: 22px; 	}
-
-	.main {
-		padding-left: 93px; 	}
-
-	.main h3 {
-	 margin-top: 40px;
-    line-height: 95px;	}
-
-	.t15 {
-		font-size: 18px;	}
-
-	.main article {
-		padding-top: 78px;
-		padding-bottom: 78px; 	}
-
-	.watch:last-child img {
-		padding-left: 25px; 	}
-
-	.t24 {
-		font-size: 24px; 	}
-
-	.sign {
-		padding-top: 30px;
-		padding-bottom: 70px;	}
-
-	form {
-		width: 80%;	}
-
-	.t17 {
-		font-size: 25px;	}
-
-	.sign > div {
-		padding: 0 37px;
-		padding-bottom: 53px;
-		width: 60%; 	}
-
-	.inpt {
-		margin-bottom: 50px;
-		min-height: 50px; 	}
-
-	.inpt:last-of-type {
-		margin-right: 0;	}
-
-	.button {
-		min-height: 50px;	}
-
-	footer {
-		flex-direction: column;
-		padding: 30px; 	}
-
-	.f_left {
-	display:flex;
-	flex-direction: row;	}
-
-	.f_nav {
-		margin-right: 30px;	}
-
-	.f_right {
-		margin-top: 17px; 	}
+@media (min-width:901px) and (max-width: 1100px) {
+   .page {
+      background: url(../img/BackgroundTablet.png) no-repeat;
+      background-position: 100%;
+      background-size: cover;
+      background-position: top left;
+      height: 100vh;
+      overflow-x: hidden;
+   }
+   .hide {
+      display: none;
+   }
+   .headerTab {
+      width: 80%;
+   }
+   .headerNav {
+      font-size: 18px;
+   }
+   .headerNav a:focus {
+      outline: none;
+      padding-bottom: 22px;
+      border-bottom: 4px solid white;
+   }
+   .headerNav ul {
+      padding-right: 25px;
+      padding-left: 15px;
+   }
+   .headerNav li {
+      padding-right: 50px;
+   }
+   .headerInptDiv {
+      width: 80%;
+      padding: 30px;
+   }
+   .headerInput {
+      font-size: 14px;
+   }
+   input[type="search"]::-webkit-input-placeholder {
+      font-family: 'Titillium Web', sans-serif;
+      font-size: 14px;
+      color: #FFFFFF;
+   }
+   .motoName {
+      font-size: 90px;
+      line-height: 100px;
+   }
+   .icons {
+      width: auto;
+      height: 100%;
+      display: flex;
+      flex-direction: row;
+      flex-grow: 1;
+      flex-wrap: wrap;
+      justify-content: center;
+      align-items: center;
+   }
+   .icons ul {
+      margin: 0;
+      padding: 0;
+   }
+   .icons li {
+      width: 10px;
+      height: 10px;
+      background: white;
+      margin: 2px;
+   }
+   .videoButton {
+      align-items: center;
+      font-size: 18px;
+      padding-bottom: 80px;
+   }
+   .motoChar {
+      padding-bottom: 80px;
+   }
+   .motoCharUlName {
+      font-size: 18px;
+      padding-bottom: 10px;
+   }
+   .motoCharUlval {
+      font-size: 24px;
+   }
+   .motoCharUlvalRight {
+      margin-left: 35px;
+   }
+   .signPhrase {
+      font-size: 25px;
+      max-width: 55%;
+      padding-bottom: 30px;
+      padding-top: 20px;
+      line-height: 53px;
+      text-align: center;
+      letter-spacing: 0.3px;
+   }
+   .form {
+      width: 60%;
+      padding-bottom: 60px;
+      display: flex;
+      flex-direction: column;
+   }
+   .search {
+      min-height: 400px;
+      max-height: 550px;
+   }
+   .searchInpt {
+      min-height: 35px;
+   }
+   .searchInpt:first-child {
+      margin-right: 40px;
+   }
+   .button {
+      margin-top: 30px;
+      min-height: 35px;
+   }
+   .footer {
+      flex-direction: column;
+      font-size: 20px;
+   }
+   .footerNav {
+      width: 70%;
+      justify-content: space-around;
+   }
+   .posRight {
+      justify-content: flex-start;
+      padding-left: 8%;
+   }
 }
