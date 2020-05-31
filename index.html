@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Input type Range</title>
+   <script src="./scripts/script.js" defer></script>
+   <link rel="stylesheet" href="./styles/styles.css">
+</head>
+
+<body>
+   <div class="content">
+      <div class="firstDiv">
+         <input type="range" min="0" max="280" step="1" value="200" id="inptWidth" class="inptWidth" title="width">
+      </div>
+
+      <div class="secondDiv">
+         <input type="range" min="0" max="100" step="1" value="0" id="inpt" class="inpt" title="border-radius">
+         <div class="box">
+            <div id="border" class="border"></div>
+         </div>
+         <input type="range" min="0" max="360" step="1" value="0" id="rotation" class="rotation" title="rotation">
+
+         <div class="lowDiv">
+            <input type="text" class="input2" placeholder="Write some text">
+            <button class="button">Push me</button>
+         </div>
+         <input type="range" min="0" max="100" step="1" value="14" id="wordFontSize" class="wordFontSize"
+            title="font-size">
+      </div>
+      <div class="thirdDiv">
+         <input type="range" min="0" max="280" step="1" value="200" id="inptHeight" class="inptHeight" title="height">
+      </div>
+   </div>
+</body>
+</html>
