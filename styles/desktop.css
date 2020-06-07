@@ -1,6 +1,8 @@
 @media (min-width:1101px) {
    .contentBackground {
       background: url(../img/BackgroundDesktop.png) no-repeat;
+      height: calc(100% - 400px - 80px);
+      min-height: 830px;
    }
 
    .desktopHide {
