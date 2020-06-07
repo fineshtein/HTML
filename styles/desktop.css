@@ -1,0 +1,117 @@
+@media (min-width:1101px) {
+   .contentBackground {
+      background: url(../img/BackgroundDesktop.png) no-repeat;
+   }
+
+   .desktopHide {
+      display: none;
+   }
+
+   .logo {
+      margin-top: 5px;
+      padding: 0 40px;
+   }
+
+   .headerNav {
+      font-size: 18px;
+   }
+
+   .headerNav a:focus {
+      padding-bottom: 22px;
+   }
+
+   .headerNav li {
+      padding-right: 50px;
+   }
+
+   .headerInput {
+      font-size: 14px;
+      padding-right: 10px;
+      padding-left: 15px;
+   }
+
+   input[type="search"]::-webkit-input-placeholder {
+      font-size: 14px;
+   }
+
+   .motoName {
+      font-size: 90px;
+      line-height: 100px;
+   }
+
+   .videoButton {
+      align-items: center;
+      font-size: 18px;
+      padding-bottom: 80px;
+   }
+
+   .motoChar {
+      padding-bottom: 80px;
+   }
+
+   .motoCharUlName {
+      font-size: 18px;
+      padding-bottom: 10px;
+   }
+
+   .motoCharUlval {
+      font-size: 24px;
+   }
+
+   .motoCharUlvalRight {
+      margin-left: 35px;
+   }
+
+   .form {
+      padding-bottom: 89px;
+      min-width: 85%;
+   }
+
+   .headerInptDiv {
+      width: 30%;
+      padding: 30px;
+   }
+
+   .search {
+      min-height: 400px;
+      max-height: 550px;
+   }
+
+   .signPhrase {
+      font-size: 35px;
+      max-width: 60%;
+      padding-bottom: 60px;
+      padding-top: 40px;
+      line-height: 53px;
+      text-align: center;
+      letter-spacing: 0.3px;
+   }
+
+   .searchInpt {
+      margin-right: 40px;
+      min-height: 50px;
+   }
+
+   .searchInputText {
+      width: 100%;
+      padding-right: 10px;
+   }
+
+   .button {
+      min-height: 50px;
+   }
+
+   .footer {
+      flex-direction: row;
+      font-size: 20px;
+   }
+
+   .footerNav {
+      justify-content: space-around;
+   }
+
+   .posRight {
+      justify-content: flex-end;
+      padding-right: 5%;
+   }
+}

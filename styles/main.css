@@ -1,4 +1,5 @@
-html, body {
+html,
+body {
    margin: 0;
    padding: 0;
    outline: none;
@@ -8,58 +9,111 @@ html, body {
    font-style: normal;
    font-weight: normal;
 }
+
 .page {
    width: 100%;
+   height: auto;
    margin: 0 auto;
 }
-.content {
+
+.contentBackground {
+   background-position: 100%;
+   background-size: cover;
+   background-position: top left;
+   overflow-x: hidden;
    height: 100%;
    margin: 0 auto;
    display: flex;
    flex-direction: column;
 }
+
 .markerNone {
    list-style-type: none;
 }
+
 .header {
    width: 100%;
-   display:flex;
+   display: flex;
    flex-direction: row;
    max-height: 79px;
-   flex-grow: 1;  
+   flex-grow: 1;
    border-bottom: 1px solid #A3A3A3;
+   align-items: center;
 }
+
+.icons {
+   height: 100%;
+   display: flex;
+   flex-direction: row;
+   flex-wrap: wrap;
+   justify-content: center;
+   align-items: center;
+   flex-shrink: 0;
+   padding-left: 17px;
+}
+
+.icons ul {
+   margin: 0;
+   padding: 0;
+}
+
+.icons li {
+   width: 5px;
+   height: 5px;
+   background: white;
+   margin: 2px;
+}
+
 .headerNav {
    color: #FFFFFF;
-   display:flex;
-   flex-grow:1;
+   display: flex;
+   flex-grow: 1;
    justify-content: space-around;
    align-items: center;
    word-wrap: none;
 }
+
 .headerNav a {
    text-decoration: none;
    color: #FFFFFF;
    white-space: nowrap;
 }
+
+.headerNav a:focus {
+   outline: none;
+   border-bottom: 4px solid white;
+}
+
 .headerInptDiv {
    flex-grow: 1;
    display: flex;
    align-items: center;
    border-left: 1px solid #A3A3A3;
 }
+
 .headerInput {
+   font-family: Titillium Web;
+   font-style: normal;
+   font-weight: normal;
    background: none;
    outline: none;
    border: none;
-   padding-left: 15px;
    color: #FFFFFF;
+   width: 100%;
 }
+
+input[type="search"]::-webkit-input-placeholder {
+   font-family: 'Titillium Web', sans-serif;
+   color: #FFFFFF;
+   caret-color: #FFFFFF;
+}
+
 .main {
    display: flex;
    flex-grow: 1;
    color: #F6F6F6;
 }
+
 .article {
    display: flex;
    flex-direction: column;
@@ -67,49 +121,58 @@ html, body {
    width: 80%;
    padding-left: 10%;
 }
+
 .motoName {
    font-family: Titillium Web;
    font-style: normal;
    font-weight: bold;
    color: #FFFFFF;
 }
+
 .videoButton {
    display: flex;
    justify-content: flex-start;
    color: #FFFFFF;
 }
-.videoButtonDiv {
+
+.videoButtonContent {
    display: flex;
    justify-content: flex-start;
    align-items: center;
 }
-.videoButtonSpan {
-   padding-left: 25px;
-   padding-right: 25px;
+
+.videoButtonText {
+   margin-left: 25px;
+   margin-right: 25px;
 }
+
 .motoChar {
    display: flex;
    justify-content: flex-start;
    flex-wrap: wrap;
 }
+
 .motoCharUl {
    list-style-type: none;
    padding-left: 0;
    padding-right: 55px;
 }
+
 .search {
    display: flex;
    flex-grow: 1;
-   background: linear-gradient(0deg, rgba(9, 9, 9, 0.465718), rgba(9, 9, 9, 0.465718)), #1F1F2F;
+   background: #15151D;
    flex-direction: column;
    justify-content: center;
    align-items: center;
    box-sizing: border-box;
 }
+
 .signPhrase {
    color: #FFFFFF;
    box-sizing: border-box;
 }
+
 .form {
    display: flex;
    flex-direction: row;
@@ -117,26 +180,36 @@ html, body {
    align-items: center;
    flex-wrap: wrap;
 }
+
 .searchInpt {
-   display:flex;
+   display: flex;
    align-items: center;
    flex-grow: 1;
    flex-shrink: 1;
    background: #FFFF;
    border-radius: 10px;
 }
+
+.searchInptText input {
+   background: #FFFFFF;
+}
+
 .searchInputText {
    outline: none;
    border: none;
    color: #82868E;
+   background: #FFFF;
    flex-shrink: 1;
    font-family: 'Titillium Web', sans-serif;
    font-size: 17px;
+   border-radius: 10px;
 }
+
 .searchInpt img {
    padding: 0 15px;
    height: 10px;
 }
+
 .button {
    background: #F92251;
    border-radius: 10px;
@@ -147,27 +220,35 @@ html, body {
    font-size: 17px;
    align-items: stretch;
 }
+
 input[type="text"]::-webkit-input-placeholder {
    font-family: 'Titillium Web', sans-serif;
    font-size: 17px;
    color: #82868E;
+   background: #FFFF;
 }
+
 input[type="email"]::-webkit-input-placeholder {
    font-family: 'Titillium Web', sans-serif;
    font-size: 17px;
    color: #82868E;
+   background: #FFFF;
 }
+
 .footer {
-   display:flex;
+   display: flex;
    background: #404754;
    flex-grow: 0;
    flex-shrink: 0;
+   min-height: 80px;
 }
+
 .footerNav {
    display: flex;
    flex-grow: 1;
    color: #FFFFFF;
 }
+
 .footerNav a {
    color: #FFFFFF;
    white-space: nowrap;

@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="./styles/mobile.css">
+   <link rel="stylesheet" href="./styles/tablet.css">
+   <link rel="stylesheet" href="./styles/desktop.css">
+   <link rel="stylesheet" href="./styles/main.css">
+
+   <link
+      href="https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap"
+      rel="stylesheet">
+   <title>Landing Page</title>
+</head>
+
+<body>
+   <div class="page">
+
+      <div class="contentBackground">
+
+         <header class="header">
+            <div class="logo hide"> <img src="./img/domo-kun-logo.png" alt="logo"> </div>
+            <div class="icons desktopHide">
+               <ul class="markerNone desktopHide">
+                  <li></li>
+                  <li></li>
+                  <li></li>
+               </ul>
+               <ul class="markerNone desktopHide">
+                  <li></li>
+                  <li></li>
+                  <li></li>
+               </ul>
+               <ul class="markerNone desktopHide">
+                  <li></li>
+                  <li></li>
+                  <li></li>
+               </ul>
+            </div>
+            <nav class="headerNav headerTab">
+               <ul class="markerNone headerNav">
+                  <li class=""><a href="#" tabindex="1">Models</a></li>
+                  <li class="hide"><a href="#" tabindex="2">Dimesions</a></li>
+                  <li class="hide"><a href="#" tabindex="3">Facts & Figures</a></li>
+                  <li class="hide"><a href="#" tabindex="4">History</a></li>
+                  <li class="hide"><a href="#" tabindex="5">Reviews</a></li>
+               </ul>
+               <div class="headerInptDiv">
+                  <img src="./img/Shape.png" alt="icon">
+                  <input type="search" class="headerInput" placeholder="Search for details..." tabindex="6">
+               </div>
+            </nav>
+         </header>
+
+         <main class="main">
+            <article class="article">
+               <h1 class="motoName">Honda <br> Sport <br> CRF 450RX</h1>
+               <section class="videoButton">
+                  <div class="videoButtonContent">
+                     <img src="img/icon1.svg" class="mobilSize" alt="videoButton"><span class="videoButtonText"> Watch
+                        film </span>
+                  </div>
+                  <div class="videoButtonContent">
+                     <img src="img/icon2.png" class="mobilSize" alt="videoButton"><span class="videoButtonText">
+                        Bookmark for later
+                     </span>
+                  </div>
+               </section>
+               <section class="motoChar">
+                  <ul class="motoCharUl">
+                     <li class="motoCharUlName">Manufacturer</li>
+                     <li class="motoCharUlval">Honda</li>
+                  </ul>
+                  <ul class="motoCharUl">
+                     <li class="motoCharUlName">Production</li>
+                     <li class="motoCharUlval">2019</li>
+                  </ul>
+                  <ul class="motoCharUl">
+                     <li class="motoCharUlName">Engine</li>
+                     <li class="motoCharUlval">0.45L PGM-FI</li>
+                  </ul>
+                  <ul class="motoCharUl">
+                     <li class="motoCharUlName">Reviews</li>
+                     <li class="motoCharUlval">
+                        <img src="img/star.png" class="starMobil" alt="star">
+                        <img src="img/star.png" class="starMobil" alt="star">
+                        <img src="img/star.png" class="starMobil" alt="star">
+                        <img src="img/star.png" class="starMobil" alt="star">
+                        <img src="img/star.svg" class="starMobil" alt="emptystar">
+                        <span class="motoCharUlvalRight"> 4.0/5 </span>
+                     </li>
+                  </ul>
+               </section>
+            </article>
+         </main>
+
+      </div>
+
+      <div class="search">
+         <div class="signPhrase">
+            Sign up for our email newsletter and get the latest our company news. <br> Get free trial for 3
+            month.
+         </div>
+         <form action="/posturl/newsletter/" method="POST" name="form" class="form">
+            <div class="searchInpt">
+               <img src="img/face_icon.png" alt="faceicon">
+               <input type="text" name="name" placeholder="Name" class="searchInputText" required
+                  pattern="[A-Za-z]{2,30}" title="2-30 A-Za-z letters" tabindex="8">
+            </div>
+            <div class="searchInpt">
+               <img src="img/post_icon.png" alt="posticon">
+               <input type="email" name="post" placeholder="E-Mail" required tabindex="9" class="searchInputText">
+            </div>
+            <button class="button" type="submit" tabindex="10"> GET STARTED FOR FREE</button>
+         </form>
+      </div>
+
+      <footer class="footer">
+         <ul class="markerNone footerNav">
+            <li><a href="#" tabindex="11">Cars</a></li>
+            <li><a href=" #" tabindex="12">Motorcycles</a></li>
+            <li><a href="#" tabindex="13">Engines</a></li>
+            <li><a href="#" tabindex="14">Water Moto Technology</a></li>
+         </ul>
+         <ul class="markerNone footerNav posRight">
+            <li>&copy;,2020 &lt;BeeInterns/&gt;</li>
+         </ul>
+      </footer>
+
+   </div>
+</body>
+
+</html>

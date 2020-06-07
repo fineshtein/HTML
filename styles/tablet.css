@@ -1,0 +1,143 @@
+@media (min-width:670px) and (max-width: 1100px) {
+
+   .contentBackground {
+      background: url(../img/BackgroundTablet.png) no-repeat;
+   }
+
+   .hide {
+      display: none;
+   }
+
+   .headerTab {
+      width: 80%;
+   }
+
+   .headerNav {
+      font-size: 18px;
+   }
+
+   .headerNav a:focus {
+      padding-bottom: 22px;
+   }
+
+   .headerNav ul {
+      padding-right: 25px;
+      padding-left: 15px;
+   }
+
+   .headerNav li {
+      padding-left: 25px;
+      padding-right: 25px;
+   }
+
+   .headerInptDiv {
+      width: 80%;
+      padding: 30px;
+   }
+
+   .headerInput {
+      font-size: 14px;
+      padding-right: 10px;
+      padding-left: 15px;
+   }
+
+   input[type="search"]::-webkit-input-placeholder {
+      font-size: 14px;
+   }
+
+   .motoName {
+      font-size: 90px;
+      line-height: 100px;
+   }
+
+   .icons li {
+      width: 10px;
+      height: 10px;
+   }
+
+   .videoButton {
+      align-items: center;
+      font-size: 18px;
+      padding-bottom: 80px;
+   }
+
+   .motoChar {
+      padding-bottom: 80px;
+   }
+
+   .motoCharUlName {
+      font-size: 18px;
+      padding-bottom: 10px;
+   }
+
+   .motoCharUlval {
+      font-size: 24px;
+   }
+
+   .motoCharUlvalRight {
+      margin-left: 35px;
+   }
+
+   .signPhrase {
+      font-size: 25px;
+      max-width: 60%;
+      padding-bottom: 30px;
+      padding-top: 20px;
+      line-height: 53px;
+      text-align: center;
+      letter-spacing: 0.3px;
+   }
+
+   .form {
+      width: 60%;
+      padding-bottom: 60px;
+   }
+
+   .search {
+      min-height: 400px;
+      max-height: 550px;
+   }
+
+   .searchInpt {
+      min-height: 35px;
+   }
+
+   .searchInputText {
+      width: 80%;
+   }
+
+   .searchInpt:first-child {
+      margin-right: 40px;
+   }
+
+   .button {
+      margin-top: 30px;
+      min-height: 35px;
+   }
+
+   .footer {
+      flex-direction: column;
+      font-size: 20px;
+   }
+
+   .footerNav {
+      width: 70%;
+      justify-content: space-around;
+   }
+
+   .posRight {
+      justify-content: flex-start;
+      padding-left: 8%;
+   }
+}
+
+@media (min-width:670px) and (max-width: 810px) {
+   .form {
+      width: 74%;
+   }
+
+   .signPhrase {
+      width: 74%;
+   }
+
+}
